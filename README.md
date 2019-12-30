@@ -5,7 +5,7 @@ Source URL for [Patcher](https://github.com/hobbyquaker/Patcher): `https://api.g
 
 #### hq0001-usr-local-root.patch
 
-Create symlink for ssh dir after patching: `ln -s /usr/local/etc/ssh /usr/local/root/.ssh`
+Copy home dir before patching: `cp -R /root /usr/local/`
 
 
 ### License
