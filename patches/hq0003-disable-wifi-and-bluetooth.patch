@@ -1,0 +1,13 @@
+--- /mnt/boot_par/config.txt.orig
++++ /mnt/boot_par/config.txt
+@@ -43,6 +43,10 @@
+ # start with heartbeat on PWR led and mmc0 on ACT led
+ dtparam=pwr_led_trigger=timer,act_led_trigger=mmc0
+
++# disable wifi and bluetooth
++dtoverlay=pi3-disable-wifi
++dtoverlay=pi3-disable-bt
++
+ # add device tree overlay for RPI-RF-MOD
+ dtoverlay=rpi-rf-mod
+ 
