@@ -1,5 +1,5 @@
---- crRFD.conf.orig
-+++ crRFD.conf
+--- /etc/crRFD.conf.orig
++++ /etc/crRFD.conf
 @@ -30,7 +30,7 @@
 
  # HmIP-Routing
