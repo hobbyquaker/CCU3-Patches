@@ -1,0 +1,11 @@
+--- crRFD.conf.orig
++++ crRFD.conf
+@@ -30,7 +30,7 @@
+
+ # HmIP-Routing
+ Adapter.Remote.Enabled=false
+-Adapter.Local.Device.Enabled=false
++Adapter.Local.Device.Enabled=true
+ Adapter.Local.Listener.Mode=RADIO
+ Lan.Routing.Enabled=true
+ AccessPoint.Update.Server.URL=http://SGTIN:9293/

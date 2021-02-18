@@ -12,4 +12,4 @@ Copy home dir before patching: `cp -R /root /usr/local/`
 
 CC BY-SA 2.0 https://creativecommons.org/licenses/by-sa/2.0/
 
-Copyright (c) 2019 Sebastian Raff <hobbyquaker@gmail.com>
+Copyright (c) 2019-2020 Sebastian Raff <hobbyquaker@gmail.com>
